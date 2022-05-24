@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(198, 137, 255);
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
