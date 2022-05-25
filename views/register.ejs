@@ -8,11 +8,11 @@
         <%- include('../partials/header.ejs') %>
     </header>
     <main>
-        <form action="" method="POST">
-            <input type="text" placeholder="Name"/>
-            <input type="text" placeholder="Mail"/>
-            <input type="password" placeholder="Password"/>
-            <input type="password" placeholder="Confirm Password"/>
+        <h1>Register</h1>
+        <form action="/register" method="POST">
+            <input type="text" name="name" placeholder="Name"/>
+            <input type="text" name="email" placeholder="Mail"/>
+            <input type="password" name="password" placeholder="Password"/>
             <input type="submit" value="Register"/>
         </form>
     </main>
